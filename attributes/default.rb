@@ -1,0 +1,1 @@
+default['gemsource']['root'] = '/gems'
