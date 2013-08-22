@@ -11,7 +11,7 @@ cookbook_file "#{Chef::Config[:file_cache_path]}/builder-3.2.2.gem" do
 	source 'builder-3.2.2.gem'
 end
 
-gem_package 'builder'
+gem_package 'builder' do
  	source "#{Chef::Config[:file_cache_path]}/builder-3.2.2.gem"
 end
 
