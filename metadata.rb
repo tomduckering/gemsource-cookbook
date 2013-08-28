@@ -1,6 +1,6 @@
 name             'gemsource'
-maintainer       'YOUR_NAME'
-maintainer_email 'YOUR_EMAIL'
+maintainer       'Tom Duckering'
+maintainer_email 'tom.duckering@gmail.com'
 license          'All rights reserved'
 description      'Installs/Configures gemsource'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
